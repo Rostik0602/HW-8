@@ -1,0 +1,45 @@
+.text-box h3:first-of-type {
+color:pink;
+}
+#greycol {
+    color:grey;
+}
+.text-box p:last-of-type {
+    color:red;
+}
+.text-box p:nth-of-type(2n+3) {
+    color:green;
+}
+.text-box .yellow:last-child {
+color:yellow;
+}
+.box>:first-child  {
+color:gold;
+}
+.box>:nth-child(2) {
+    color:green;
+}
+.box>:nth-child(3) {
+    color:blue;
+}
+.box>:nth-child(4) {
+    color:red;
+}
+.box>:nth-child(5) {
+    color:gray;
+}
+.title-1:hover {
+    color:aqua;
+}
+.title-2:focus {
+    color:red;
+}
+.title-3:visited {
+    color:blueviolet;
+}
+.title-4:active {
+    color:blue;
+}
+.title-5:link {
+    color:cadetblue;
+}
